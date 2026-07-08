@@ -1,0 +1,66 @@
+{
+  "categories": [
+    {
+      "name": "Economics & Research",
+      "skills": [
+        "Microeconomics",
+        "Macroeconomics",
+        "Econometrics",
+        "Statistics",
+        "Quantitative Analysis",
+        "Statistical Reasoning",
+        "Secondary Data Research",
+        "Academic Research",
+        "Report Writing"
+      ]
+    },
+    {
+      "name": "Business & Analytics",
+      "skills": [
+        "Business Analytics",
+        "Data Analytics",
+        "Market Research",
+        "Lead Generation",
+        "CRM",
+        "Business Development",
+        "Customer Relationship Management"
+      ]
+    },
+    {
+      "name": "AI & Automation",
+      "skills": [
+        "AI-based Applications",
+        "Automation",
+        "AI & Technology Exploration"
+      ]
+    },
+    {
+      "name": "Digital & Creative",
+      "skills": [
+        "Digital Marketing",
+        "Social Media Content Strategy",
+        "Video Editing",
+        "Photo Editing",
+        "Content Creation",
+        "Background Music Production",
+        "Canva",
+        "CapCut"
+      ]
+    },
+    {
+      "name": "Professional & Soft",
+      "skills": [
+        "Business Communication",
+        "Presentation Skills",
+        "Public Speaking",
+        "Critical Thinking",
+        "Problem Solving",
+        "Team Collaboration",
+        "Time Management",
+        "Adaptability",
+        "Process Simplification",
+        "Innovation"
+      ]
+    }
+  ]
+}
