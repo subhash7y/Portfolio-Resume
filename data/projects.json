@@ -1,0 +1,57 @@
+[
+  {
+    "title": "Restaurant Website",
+    "image": "restaurant.webp",
+    "description": "Full-stack restaurant landing page with online ordering and reservation system.",
+    "problem": "Restaurants needed a digital presence to manage orders and reservations.",
+    "solution": "Built a responsive website with integrated order management.",
+    "technology": ["HTML", "CSS", "JavaScript", "Firebase"],
+    "business_impact": "Increased online orders by 40% for the client.",
+    "github": "#",
+    "live": "#"
+  },
+  {
+    "title": "HonourGrid Labs",
+    "image": "honourgrid.webp",
+    "description": "Research collaboration platform for economics students to share and publish working papers.",
+    "problem": "Lack of a centralized platform for student research.",
+    "solution": "Developed a minimal platform with paper submission and peer review.",
+    "technology": ["React", "Node.js", "MongoDB"],
+    "business_impact": "Onboarded 50+ student researchers.",
+    "github": "#",
+    "live": "#"
+  },
+  {
+    "title": "Analytics Projects – Market Research",
+    "image": "analytics.webp",
+    "description": "Data-driven market research projects analyzing consumer trends and business performance.",
+    "problem": "Businesses needed actionable insights from raw data.",
+    "solution": "Performed data cleaning, visualization, and predictive modeling.",
+    "technology": ["Python", "Pandas", "Matplotlib", "Tableau"],
+    "business_impact": "Provided strategy recommendations that improved ROI.",
+    "github": "#",
+    "live": "#"
+  },
+  {
+    "title": "AI Automation Projects",
+    "image": "automation.webp",
+    "description": "Exploring AI-powered automation for business processes and research workflows.",
+    "problem": "Manual processes were inefficient and time-consuming.",
+    "solution": "Built automation scripts and AI models to streamline tasks.",
+    "technology": ["Python", "OpenAI API", "Automation Anywhere"],
+    "business_impact": "Reduced manual effort by 60%.",
+    "github": "#",
+    "live": "#"
+  },
+  {
+    "title": "Business Development Initiatives",
+    "image": "business.webp",
+    "description": "Entrepreneurial ventures including Forever Living Products distribution.",
+    "problem": "Need to build a customer base and brand presence.",
+    "solution": "Implemented lead generation, CRM, and networking strategies.",
+    "technology": ["CRM Tools", "Social Media", "Content Marketing"],
+    "business_impact": "Built a network of 200+ customers.",
+    "github": "#",
+    "live": "#"
+  }
+]
