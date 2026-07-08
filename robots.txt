@@ -1,0 +1,131 @@
+robots.txt – Search Engine Crawler Instructions
+
+The robots.txt file tells search engine crawlers which pages to index and which to ignore.
+
+---
+
+📌 File Content
+
+Create a file named robots.txt in the root directory of your project with the following content:
+
+```text
+# ============================================================
+# ROBOTS.TXT – Subhash Kumar Portfolio
+# ============================================================
+
+# Allow all crawlers to access the site
+User-agent: *
+
+# Disallow: None – everything is public
+Disallow:
+
+# ============================================================
+# SITEMAP – Tell crawlers where to find the XML sitemap
+# ============================================================
+
+Sitemap: https://subhash7y.github.io/Portfolio-Resume/sitemap.xml
+```
+
+---
+
+🔧 Customization
+
+Replace the Sitemap URL with your actual domain URL:
+
+With Default GitHub Pages Domain
+
+```text
+Sitemap: https://subhash7y.github.io/Portfolio-Resume/sitemap.xml
+```
+
+With Custom Domain (Example)
+
+```text
+Sitemap: https://subhashkumar.com/sitemap.xml
+```
+
+---
+
+📁 File Location
+
+```
+Portfolio-Resume/
+├── index.html
+├── style.css
+├── script.js
+├── robots.txt          ← Here (root of the repository)
+├── sitemap.xml         ← Sitemap file (also in root)
+├── CNAME
+├── README.md
+├── LICENSE
+└── ...
+```
+
+---
+
+🚀 Common Directives
+
+Allow All Crawlers (Current Configuration)
+
+```text
+User-agent: *
+Disallow:
+```
+
+This allows all search engines to crawl everything.
+
+Block Specific Crawlers
+
+```text
+User-agent: Googlebot
+Disallow:
+
+User-agent: Bingbot
+Disallow:
+
+User-agent: *
+Disallow:
+```
+
+Disallow Specific Paths
+
+```text
+User-agent: *
+Disallow: /assets/documents/
+Disallow: /data/
+Disallow: /sections/
+Disallow: /scripts/
+```
+
+Disallow Everything (Not Recommended)
+
+```text
+User-agent: *
+Disallow: /
+```
+
+---
+
+📝 Notes
+
+· The robots.txt file is optional – if missing, crawlers will index everything by default.
+· It's a good practice to include a sitemap.xml reference for better SEO.
+· Keep the file in the root directory of your GitHub Pages site.
+· GitHub Pages automatically serves robots.txt from the root.
+
+---
+
+🔍 Testing Your robots.txt
+
+1. Deploy your site.
+2. Visit https://your-domain.com/robots.txt in a browser.
+3. You should see the content of the file displayed.
+4. Use Google Search Console's "robots.txt Tester" tool to validate.
+
+---
+
+📚 Resources
+
+· Google robots.txt Documentation
+· Robotstxt.org
+· Google Search Console
