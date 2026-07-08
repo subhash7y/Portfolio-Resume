@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<browserconfig>
+    <msapplication>
+        <tile>
+            <square70x70logo src="/Portfolio-Resume/assets/favicon/mstile-70x70.png"/>
+            <square150x150logo src="/Portfolio-Resume/assets/favicon/mstile-150x150.png"/>
+            <wide310x150logo src="/Portfolio-Resume/assets/favicon/mstile-310x150.png"/>
+            <square310x310logo src="/Portfolio-Resume/assets/favicon/mstile-310x310.png"/>
+            <TileColor>#6C5CE7</TileColor>
+        </tile>
+        <notifications>
+            <polling-uri src=""/>
+            <polling-uri2 src=""/>
+            <polling-uri3 src=""/>
+            <polling-uri4 src=""/>
+            <polling-uri5 src=""/>
+        </notifications>
+    </msapplication>
+</browserconfig>
+<meta name="msapplication-config" content="browserconfig.xml" />
