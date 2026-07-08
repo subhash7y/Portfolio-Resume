@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+    <!-- ============================================================
+    HOMEPAGE – Highest Priority
+    ============================================================ -->
+    <url>
+        <loc>https://subhash7y.github.io/Portfolio-Resume/</loc>
+        <lastmod>2026-07-08</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <!-- ============================================================
+    HERO SECTION
+    ============================================================ -->
+    <url>
+        <loc>https://subhash7y.github.io/Portfolio-Resume/#hero</loc>
+        <lastmod>2026-07-08</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- ============================================================
+    ABOUT SECTION
+    ============================================================ -->
+    <url>
+        <loc>https://subhash7y.github.io/Portfolio-Resume/#about</loc>
+        <lastmod>2026-07-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- ============================================================
+    SKILLS SECTION
+    ============================================================ -->
+    <url>
+        <loc>https://subhash7y.github.io/Portfolio-Resume/#skills</loc>
+        <lastmod>2026-07-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- ============================================================
+    EXPERIENCE SECTION
+    ============================================================ -->
+    <url>
+        <loc>https://subhash7y.github.io/Portfolio-Resume/#experience</loc>
+        <lastmod>2026-07-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+
+<!-- ============================================================
+RESEARCH SECTION
+============================================================ -->
+<url>
+    <loc>https://subhash7y.github.io/Portfolio-Resume/#research</loc>
+    <lastmod>2026-07-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+</url>
+
+<!-- ============================================================
+RESEARCH 1: Consumer Preferences
+============================================================ -->
+<url>
+    <loc>https://subhash7y.github.io/Portfolio-Resume/#research</loc>
+    <lastmod>2026-07-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+</url>
+
+<!-- ============================================================
+RESEARCH 2: Video Engagement Metrics
+============================================================ -->
+<url>
+    <loc>https://subhash7y.github.io/Portfolio-Resume/#research</loc>
+    <lastmod>2026-07-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+</url>
+
+<!-- ============================================================
+RESEARCH 3: Interest Rates and Corporate Investment
+============================================================ -->
+<url>
+    <loc>https://subhash7y.github.io/Portfolio-Resume/#research</loc>
+    <lastmod>2026-07-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+</url>
+
+<!-- ============================================================
+PROJECTS SECTION
+============================================================ -->
+<url>
+    <loc>https://subhash7y.github.io/Portfolio-Resume/#projects</loc>
+    <lastmod>2026-07-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+</url>
+
+<!-- ============================================================
+PROJECT: Restaurant Website
+============================================================ -->
+<url>
+    <loc>https://subhash7y.github.io/Portfolio-Resume/#projects</loc>
+    <lastmod>2026-07-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+
+<!-- ============================================================
+PROJECT: HonourGrid Labs
+============================================================ -->
+<url>
+    <loc>https://subhash7y.github.io/Portfolio-Resume/#projects</loc>
+    <lastmod>2026-07-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+
+<!-- ============================================================
+PROJECT: Analytics Projects
+============================================================ -->
+<url>
+    <loc>https://subhash7y.github.io/Portfolio-Resume/#projects</loc>
+    <lastmod>2026-07-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+
+<!-- ============================================================
+PROJECT: AI Automation Projects
+============================================================ -->
+<url>
+    <loc>https://subhash7y.github.io/Portfolio-Resume/#projects</loc>
+    <lastmod>2026-07-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+
+<!-- ============================================================
+PROJECT: Business Development Initiatives
+============================================================ -->
+<url>
+    <loc>https://subhash7y.github.io/Portfolio-Resume/#projects</loc>
+    <lastmod>2026-07-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+
+<!-- ============================================================
+EDUCATION SECTION
+============================================================ -->
+<url>
+    <loc>https://subhash7y.github.io/Portfolio-Resume/#education</loc>
+    <lastmod>2026-07-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+
+    <!-- ============================================================
+    CERTIFICATIONS SECTION
+    ============================================================ -->
+    <url>
+        <loc>https://subhash7y.github.io/Portfolio-Resume/#certifications</loc>
+        <lastmod>2026-07-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+
+    <!-- ============================================================
+    ACHIEVEMENTS SECTION
+    ============================================================ -->
+    <url>
+        <loc>https://subhash7y.github.io/Portfolio-Resume/#achievements</loc>
+        <lastmod>2026-07-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+
+    <!-- ============================================================
+    CONTACT SECTION
+    ============================================================ -->
+    <url>
+        <loc>https://subhash7y.github.io/Portfolio-Resume/#contact</loc>
+        <lastmod>2026-07-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- ============================================================
+    FOOTER
+    ============================================================ -->
+    <url>
+        <loc>https://subhash7y.github.io/Portfolio-Resume/#footer</loc>
+        <lastmod>2026-07-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+</urlset>
