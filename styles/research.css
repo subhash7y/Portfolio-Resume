@@ -1,0 +1,95 @@
+/* ============================================================
+   RESEARCH
+   ============================================================ */
+.research-section {
+    background: var(--bg);
+}
+
+.research-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    gap: 28px;
+}
+
+.research-card {
+    background: var(--bg-card);
+    border-radius: var(--radius);
+    padding: 28px 24px;
+    border: 1px solid var(--border);
+    transition: all var(--transition);
+    backdrop-filter: blur(4px);
+}
+.research-card:hover {
+    transform: translateY(-6px);
+    box-shadow: var(--shadow-lg);
+    border-color: rgba(108, 92, 231, 0.20);
+}
+
+.research-card h3 {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--text);
+    margin-bottom: 10px;
+    line-height: 1.3;
+}
+.research-card .abstract {
+    font-size: 0.92rem;
+    color: var(--text-muted);
+    line-height: 1.7;
+}
+
+.research-card .research-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 12px;
+    margin-top: 14px;
+    font-size: 0.8rem;
+    color: var(--text-light);
+}
+.research-card .research-meta span {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.research-card .research-skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 14px;
+}
+.research-card .research-skills .skill {
+    font-size: 0.7rem;
+    font-weight: 500;
+    padding: 2px 12px;
+    border-radius: var(--radius-full);
+    background: rgba(108, 92, 231, 0.08);
+    color: var(--text-muted);
+}
+
+.research-card .btn {
+    margin-top: 16px;
+    font-size: 0.82rem;
+    padding: 8px 20px;
+}
+
+.research-card .research-details {
+    display: none;
+    margin-top: 16px;
+    padding-top: 16px;
+    border-top: 1px solid var(--border);
+}
+.research-card .research-details.open {
+    display: block;
+}
+.research-card .research-details h4 {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--text);
+    margin: 8px 0 4px;
+}
+.research-card .research-details p {
+    font-size: 0.88rem;
+    color: var(--text-muted);
+    line-height: 1.6;
+}
