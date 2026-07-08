@@ -1,0 +1,15 @@
+# ============================================================
+# ROBOTS.TXT – Subhash Kumar Portfolio
+# ============================================================
+
+# Allow all crawlers to access the site
+User-agent: *
+
+# Disallow: None – everything is public
+Disallow:
+
+# ============================================================
+# SITEMAP – Tell crawlers where to find the XML sitemap
+# ============================================================
+
+Sitemap: https://subhash7y.github.io/Portfolio-Resume/sitemap.xml
