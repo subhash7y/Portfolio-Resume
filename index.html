@@ -1,14 +1,15 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en">
-    <head>
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Subhash Kumar | Economist · Researcher · Consultant</title>
 
     <!-- SEO Meta Tags -->
     <meta name="description" content="Subhash Kumar – Economics (Honours) student at University of Delhi. Researcher in econometrics, consumer behaviour & business analytics." />
-    <meta name="keywords" content="Subhash Kumar, Economics, Research, Econometrics, Business Analytics" />
+    <meta name="keywords" content="Subhash Kumar, Economics, Research, Econometrics, Business Analytics, Data Science" />
     <meta name="author" content="Subhash Kumar" />
+    <meta name="theme-color" content="#2563eb" />
     <link rel="canonical" href="https://subhash7y.github.io/Portfolio-Resume/" />
 
     <!-- Open Graph -->
@@ -16,12 +17,20 @@
     <meta property="og:description" content="Economics (Honours) student at University of Delhi. Research in econometrics, consumer behaviour & business analytics." />
     <meta property="og:url" content="https://subhash7y.github.io/Portfolio-Resume/" />
     <meta property="og:type" content="website" />
+    <meta property="og:image" content="assets/images/og-image.png" />
 
     <!-- Twitter Cards -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Subhash Kumar | Economist · Researcher · Consultant" />
+    <meta name="twitter:description" content="Economics (Honours) student at University of Delhi. Research in econometrics, consumer behaviour & business analytics." />
 
-    <!-- ===== NEW SEO FILES ===== -->
+    <!-- Preconnect to external resources -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+
     <!-- Manifest (PWA) -->
     <link rel="manifest" href="seo/manifest.json" />
 
@@ -30,22 +39,30 @@
 
     <!-- Favicon -->
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📊</text></svg>" />
+    <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 180 180'><text y='90' font-size='160' text-anchor='middle' dominant-baseline='middle'>📊</text></svg>" />
 
     <!-- Styles -->
     <link rel="stylesheet" href="style.css" />
 </head>
+<body>
     <!-- ============================================================
     LOADING SCREEN
     ============================================================ -->
     <div id="loader" role="status" aria-label="Loading">
-        <div class="loader-spinner" aria-hidden="true"></div>
-        <span class="loader-text">Loading&hellip;</span>
+        <div class="loader-container">
+            <div class="loader-spinner" aria-hidden="true">
+                <div class="spinner-ring"></div>
+                <div class="spinner-ring"></div>
+                <div class="spinner-ring"></div>
+            </div>
+            <span class="loader-text">Loading<span class="loader-dots">.</span></span>
+        </div>
     </div>
 
     <!-- ============================================================
     NAVIGATION
     ============================================================ -->
-    <nav id="navbar" role="navigation" aria-label="Main navigation">
+    <nav id="navbar" class="navbar-glassmorphism" role="navigation" aria-label="Main navigation">
         <div class="container nav-container">
             <a href="#hero" class="nav-logo" aria-label="Subhash Kumar – Home">
                 <span class="logo-icon">📊</span>
@@ -59,15 +76,15 @@
             </button>
 
             <ul class="nav-links" id="navLinks" role="menubar">
-                <li role="none"><a href="#about" role="menuitem">About</a></li>
-                <li role="none"><a href="#skills" role="menuitem">Skills</a></li>
-                <li role="none"><a href="#experience" role="menuitem">Experience</a></li>
-                <li role="none"><a href="#research" role="menuitem">Research</a></li>
-                <li role="none"><a href="#projects" role="menuitem">Projects</a></li>
-                <li role="none"><a href="#education" role="menuitem">Education</a></li>
-                <li role="none"><a href="#certifications" role="menuitem">Certifications</a></li>
-                <li role="none"><a href="#achievements" role="menuitem">Achievements</a></li>
-                <li role="none"><a href="#contact" role="menuitem">Contact</a></li>
+                <li role="none"><a href="#about" role="menuitem" class="nav-link-glass">About</a></li>
+                <li role="none"><a href="#skills" role="menuitem" class="nav-link-glass">Skills</a></li>
+                <li role="none"><a href="#experience" role="menuitem" class="nav-link-glass">Experience</a></li>
+                <li role="none"><a href="#research" role="menuitem" class="nav-link-glass">Research</a></li>
+                <li role="none"><a href="#projects" role="menuitem" class="nav-link-glass">Projects</a></li>
+                <li role="none"><a href="#education" role="menuitem" class="nav-link-glass">Education</a></li>
+                <li role="none"><a href="#certifications" role="menuitem" class="nav-link-glass">Certifications</a></li>
+                <li role="none"><a href="#achievements" role="menuitem" class="nav-link-glass">Achievements</a></li>
+                <li role="none"><a href="#contact" role="menuitem" class="nav-link-glass">Contact</a></li>
                 <li role="none">
                     <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark/light mode">
                         <span class="theme-icon" aria-hidden="true">🌙</span>
@@ -84,12 +101,20 @@
 
         <!-- ===== HERO ===== -->
         <section id="hero" class="hero-section" aria-labelledby="hero-title">
+            <div class="hero-background">
+                <div class="gradient-orb orb-1"></div>
+                <div class="gradient-orb orb-2"></div>
+                <div class="gradient-orb orb-3"></div>
+            </div>
             <div class="container hero-container">
                 <div class="hero-content">
-                    <div class="hero-badge">Open to Work &amp; Research</div>
+                    <div class="hero-badge glass-effect">
+                        <span class="badge-icon">✨</span>
+                        Open to Work &amp; Research
+                    </div>
                     <h1 id="hero-title" class="hero-title">
                         <span class="hero-greeting">Hello, I'm</span>
-                        <span class="hero-name">Subhash Kumar</span>
+                        <span class="hero-name gradient-text">Subhash Kumar</span>
                         <span class="hero-typing-wrapper">
                             <span class="hero-typing" id="typingText"></span>
                             <span class="hero-cursor" aria-hidden="true">|</span>
@@ -103,20 +128,23 @@
                         data-informed decisions and business growth.
                     </p>
                     <div class="hero-actions">
-                        <a href="#contact" class="btn btn-primary">Let's Connect</a>
-                        <a href="assets/documents/Subhash_Kumar_Resume.pdf" class="btn btn-outline" download>
+                        <a href="#contact" class="btn btn-primary glass-btn ripple">Let's Connect</a>
+                        <a href="assets/documents/Subhash_Kumar_Resume.pdf" class="btn btn-outline glass-btn ripple" download>
                             Download Resume
                         </a>
                     </div>
                     <div class="hero-social">
-                        <a href="https://github.com/subhash7y" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-                            <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.01[...]
+                        <a href="https://github.com/subhash7y" target="_blank" rel="noopener noreferrer" aria-label="GitHub" class="social-icon glass-effect ripple">
+                            <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78 0-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.012 12.012 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
                         </a>
-                        <a href="https://linkedin.com/in/subhash-kumar" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-                            <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.93[...]
+                        <a href="https://linkedin.com/in/subhash-kumar" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="social-icon glass-effect ripple">
+                            <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
                         </a>
-                        <a href="mailto:shubhasharma7410@gmail.com" aria-label="Email">
-                            <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M1.5 8.67v8.58a3 3 0 003 3h15a3 3 0 003-3V8.67l-8.928 5.493a3 3 0 01-3.144 0L1.5 8.67z"/><[...]
+                        <a href="mailto:shubhasharma7410@gmail.com" aria-label="Email" class="social-icon glass-effect ripple">
+                            <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M1.5 8.67v8.58a3 3 0 003 3h15a3 3 0 003-3V8.67l-8.928 5.493a3 3 0 01-3.144 0L1.5 8.67z"/><path d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9 5.25 9-5.25z"/></svg>
+                        </a>
+                        <a href="https://wa.me/919310981775" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" class="social-icon glass-effect ripple">
+                            <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.67-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.076 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421-7.403h-.004a9.87 9.87 0 00-9.746 9.798c0 2.734.732 5.41 2.124 7.738L.929 23.589l8.272-2.737c2.194 1.156 4.653 1.77 7.19 1.77 9.897 0 17.954-8.056 17.954-17.954 0-4.8-1.869-9.316-5.27-12.721-3.401-3.405-7.917-5.283-12.721-5.283"/></svg>
                         </a>
                     </div>
                     <div class="hero-scroll-indicator" aria-hidden="true">
@@ -125,24 +153,28 @@
                     </div>
                 </div>
                 <div class="hero-visual">
-                    <div class="hero-profile-frame">
+                    <div class="hero-profile-frame glass-effect">
+                        <div class="profile-glow"></div>
                         <img
-                        src="assets/images/IMG_20260707_201818_175.png"
-                        alt="Subhash Kumar – Profile photo"
-                        class="hero-profile-img"
-                        loading="eager"
-                        width="400"
-                        height="400"
+                            src="assets/images/IMG_20260707_201818_175.png"
+                            alt="Subhash Kumar – Profile photo"
+                            class="hero-profile-img"
+                            loading="eager"
+                            width="400"
+                            height="400"
                         />
                     </div>
-                    <div class="hero-floating-card card-1">
-                        <span>📈</span> Econometrics
+                    <div class="hero-floating-card card-1 glass-effect ripple">
+                        <span>📈</span> 
+                        <span>Econometrics</span>
                     </div>
-                    <div class="hero-floating-card card-2">
-                        <span>🤖</span> AI &amp; Automation
+                    <div class="hero-floating-card card-2 glass-effect ripple">
+                        <span>🤖</span> 
+                        <span>AI &amp; Automation</span>
                     </div>
-                    <div class="hero-floating-card card-3">
-                        <span>📊</span> Business Analytics
+                    <div class="hero-floating-card card-3 glass-effect ripple">
+                        <span>📊</span> 
+                        <span>Business Analytics</span>
                     </div>
                 </div>
             </div>
@@ -157,11 +189,10 @@
                     <p class="section-sub">Data-driven researcher with a passion for econometrics, consumer behaviour, and AI-powered solutions.</p>
                 </div>
                 <div class="about-grid">
-                    <div class="about-content" id="aboutContent">
-                        <!-- Dynamic content will be injected here -->
+                    <div class="about-content glass-effect" id="aboutContent">
                         <p class="about-story">Loading story&hellip;</p>
                     </div>
-                    <div class="about-stats" id="aboutStats">
+                    <div class="about-stats glass-effect" id="aboutStats">
                         <!-- Dynamic stats will be injected here -->
                     </div>
                 </div>
@@ -170,6 +201,10 @@
 
         <!-- ===== SKILLS ===== -->
         <section id="skills" class="section-pad skills-section" aria-labelledby="skills-title">
+            <div class="skills-background">
+                <div class="gradient-orb skills-orb-1"></div>
+                <div class="gradient-orb skills-orb-2"></div>
+            </div>
             <div class="container">
                 <div class="section-header text-center">
                     <span class="section-tag">Expertise</span>
@@ -177,7 +212,6 @@
                     <p class="section-sub">A blend of economics, analytics, AI, and creative tools.</p>
                 </div>
                 <div id="skillsList" class="skills-grid">
-                    <!-- Dynamic skills will be injected here -->
                     <p>Loading skills&hellip;</p>
                 </div>
             </div>
@@ -192,7 +226,6 @@
                     <p class="section-sub">From video editing to business development — a journey of growth.</p>
                 </div>
                 <div id="experienceTimeline" class="experience-timeline">
-                    <!-- Dynamic experience will be injected here -->
                     <p>Loading experience&hellip;</p>
                 </div>
             </div>
@@ -200,6 +233,10 @@
 
         <!-- ===== RESEARCH ===== -->
         <section id="research" class="section-pad research-section" aria-labelledby="research-title">
+            <div class="research-background">
+                <div class="gradient-orb research-orb-1"></div>
+                <div class="gradient-orb research-orb-2"></div>
+            </div>
             <div class="container">
                 <div class="section-header text-center">
                     <span class="section-tag">Research</span>
@@ -207,7 +244,6 @@
                     <p class="section-sub">Empirical investigations at the intersection of economics, behaviour, and policy.</p>
                 </div>
                 <div id="researchList" class="research-grid">
-                    <!-- Dynamic research cards will be injected here -->
                     <p>Loading research&hellip;</p>
                 </div>
             </div>
@@ -222,7 +258,6 @@
                     <p class="section-sub">Building solutions at the intersection of technology, economics, and design.</p>
                 </div>
                 <div id="projectsList" class="projects-grid">
-                    <!-- Dynamic project cards will be injected here -->
                     <p>Loading projects&hellip;</p>
                 </div>
             </div>
@@ -237,7 +272,6 @@
                     <p class="section-sub">Formal training in economics, statistics, and research methodology.</p>
                 </div>
                 <div id="educationList" class="education-list">
-                    <!-- Dynamic education entries will be injected here -->
                     <p>Loading education&hellip;</p>
                 </div>
             </div>
@@ -245,6 +279,10 @@
 
         <!-- ===== CERTIFICATIONS ===== -->
         <section id="certifications" class="section-pad certifications-section" aria-labelledby="certifications-title">
+            <div class="certifications-background">
+                <div class="gradient-orb cert-orb-1"></div>
+                <div class="gradient-orb cert-orb-2"></div>
+            </div>
             <div class="container">
                 <div class="section-header text-center">
                     <span class="section-tag">Learning</span>
@@ -252,7 +290,6 @@
                     <p class="section-sub">Continuous learning to stay at the forefront of economics and technology.</p>
                 </div>
                 <div id="certificationsContent" class="certifications-grid">
-                    <!-- Dynamic certifications will be injected here -->
                     <p>Loading certifications&hellip;</p>
                 </div>
             </div>
@@ -266,8 +303,7 @@
                     <h2 id="achievements-title" class="section-title">Achievements</h2>
                     <p class="section-sub">Key accomplishments across research, projects, leadership, and business.</p>
                 </div>
-                <div id="achievementsCounters" class="achievements-counters">
-                    <!-- Dynamic counters will be injected here -->
+                <div id="achievementsCounters" class="achievements-counters glass-effect">
                     <p>Loading achievements&hellip;</p>
                 </div>
                 <div id="achievementsList" class="achievements-list">
@@ -278,6 +314,10 @@
 
         <!-- ===== CONTACT ===== -->
         <section id="contact" class="section-pad contact-section" aria-labelledby="contact-title">
+            <div class="contact-background">
+                <div class="gradient-orb contact-orb-1"></div>
+                <div class="gradient-orb contact-orb-2"></div>
+            </div>
             <div class="container">
                 <div class="section-header text-center">
                     <span class="section-tag">Get in Touch</span>
@@ -285,43 +325,43 @@
                     <p class="section-sub">Have a research idea, project, or opportunity? I'd love to hear from you.</p>
                 </div>
                 <div class="contact-grid">
-                    <div class="contact-info" id="contactInfo">
-                        <div class="contact-item">
+                    <div class="contact-info glass-effect" id="contactInfo">
+                        <div class="contact-item ripple">
                             <span class="contact-icon">📧</span>
                             <div>
                                 <strong>Email</strong>
                                 <a href="mailto:shubhasharma7410@gmail.com">shubhasharma7410@gmail.com</a>
                             </div>
                         </div>
-                        <div class="contact-item">
+                        <div class="contact-item ripple">
                             <span class="contact-icon">📱</span>
                             <div>
                                 <strong>Phone</strong>
                                 <a href="tel:+919310981775">+91 93109 81775</a>
                             </div>
                         </div>
-                        <div class="contact-item">
+                        <div class="contact-item ripple">
                             <span class="contact-icon">📍</span>
                             <div>
                                 <strong>Location</strong>
                                 <span>New Delhi, India</span>
                             </div>
                         </div>
-                        <div class="contact-item">
+                        <div class="contact-item ripple">
                             <span class="contact-icon">💼</span>
                             <div>
                                 <strong>LinkedIn</strong>
                                 <a href="https://linkedin.com/in/subhash-kumar" target="_blank" rel="noopener noreferrer">linkedin.com/in/subhash-kumar</a>
                             </div>
                         </div>
-                        <div class="contact-item">
+                        <div class="contact-item ripple">
                             <span class="contact-icon">🐙</span>
                             <div>
                                 <strong>GitHub</strong>
                                 <a href="https://github.com/subhash7y" target="_blank" rel="noopener noreferrer">github.com/subhash7y</a>
                             </div>
                         </div>
-                        <div class="contact-item">
+                        <div class="contact-item ripple">
                             <span class="contact-icon">💬</span>
                             <div>
                                 <strong>WhatsApp</strong>
@@ -329,7 +369,7 @@
                             </div>
                         </div>
                     </div>
-                    <form class="contact-form" id="contactForm" action="#" method="POST" netlify>
+                    <form class="contact-form glass-effect" id="contactForm" action="#" method="POST" netlify>
                         <div class="form-group">
                             <label for="contactName">Your Name</label>
                             <input type="text" id="contactName" name="name" placeholder="John Doe" required />
@@ -346,7 +386,7 @@
                             <label for="contactMessage">Message</label>
                             <textarea id="contactMessage" name="message" rows="5" placeholder="Tell me about your idea..." required></textarea>
                         </div>
-                        <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                        <button type="submit" class="btn btn-primary btn-full glass-btn ripple">Send Message</button>
                     </form>
                 </div>
             </div>
@@ -364,22 +404,22 @@
                     <a href="#hero" class="footer-logo">📊 Subhash</a>
                     <p class="footer-tagline">Economics · Research · Business Analytics</p>
                     <div class="footer-social">
-                        <a href="https://github.com/subhash7y" target="_blank" rel="noopener noreferrer" aria-label="GitHub">GitHub</a>
-                        <a href="https://linkedin.com/in/subhash-kumar" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">LinkedIn</a>
-                        <a href="mailto:shubhasharma7410@gmail.com" aria-label="Email">Email</a>
+                        <a href="https://github.com/subhash7y" target="_blank" rel="noopener noreferrer" aria-label="GitHub" class="footer-social-link ripple">GitHub</a>
+                        <a href="https://linkedin.com/in/subhash-kumar" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="footer-social-link ripple">LinkedIn</a>
+                        <a href="mailto:shubhasharma7410@gmail.com" aria-label="Email" class="footer-social-link ripple">Email</a>
                     </div>
                 </div>
                 <nav class="footer-nav" aria-label="Footer navigation">
-                    <a href="#about">About</a>
-                    <a href="#research">Research</a>
-                    <a href="#projects">Projects</a>
-                    <a href="#contact">Contact</a>
+                    <a href="#about" class="footer-nav-link ripple">About</a>
+                    <a href="#research" class="footer-nav-link ripple">Research</a>
+                    <a href="#projects" class="footer-nav-link ripple">Projects</a>
+                    <a href="#contact" class="footer-nav-link ripple">Contact</a>
                 </nav>
                 <div class="footer-actions">
-                    <a href="assets/documents/Subhash_Kumar_Resume.pdf" class="btn btn-outline btn-sm" download>
+                    <a href="assets/documents/Subhash_Kumar_Resume.pdf" class="btn btn-outline btn-sm glass-btn ripple" download>
                         Download Resume
                     </a>
-                    <button class="btn btn-outline btn-sm" id="backToTop" aria-label="Back to top">
+                    <button class="btn btn-outline btn-sm glass-btn ripple" id="backToTop" aria-label="Back to top">
                         ↑ Back to Top
                     </button>
                 </div>
@@ -394,15 +434,17 @@
     <!-- ============================================================
     JAVASCRIPT
     ============================================================ -->
-<script src="scripts/loader.js" defer></script>
-<script src="scripts/theme.js" defer></script>
-<script src="scripts/navbar.js" defer></script>
-<script src="scripts/typing.js" defer></script>
-<script src="scripts/counters.js" defer></script>
-<script src="scripts/timeline.js" defer></script>
-<script src="scripts/animation.js" defer></script>
-<script src="scripts/contact.js" defer></script>
-<script src="scripts/app.js" defer></script>
+    <script src="scripts/loader.js" defer></script>
+    <script src="scripts/theme.js" defer></script>
+    <script src="scripts/navbar.js" defer></script>
+    <script src="scripts/typing.js" defer></script>
+    <script src="scripts/counters.js" defer></script>
+    <script src="scripts/timeline.js" defer></script>
+    <script src="scripts/animation.js" defer></script>
+    <script src="scripts/contact.js" defer></script>
+    <script src="scripts/ripple.js" defer></script>
+    <script src="scripts/scroll-animations.js" defer></script>
+    <script src="scripts/app.js" defer></script>
 
 </body>
 </html>
