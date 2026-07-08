@@ -1,0 +1,27 @@
+[
+  {
+    "institution": "College of Vocational Studies, University of Delhi",
+    "degree": "Bachelor of Arts – Economics (Honours)",
+    "cgpa": "7.01",
+    "year": "Year 2",
+    "coursework": [
+      "Microeconomics",
+      "Macroeconomics",
+      "Econometrics",
+      "Statistics",
+      "Research Methodology"
+    ]
+  },
+  {
+    "institution": "Govt. Co-ed Senior Secondary School",
+    "degree": "Senior Secondary (Class XII) – CBSE",
+    "percentage": "71%",
+    "year": "2021"
+  },
+  {
+    "institution": "Govt. Co-ed Senior Secondary School",
+    "degree": "Secondary (Class X) – CBSE",
+    "percentage": "72%",
+    "year": "2019"
+  }
+]
