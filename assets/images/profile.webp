@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400">
+  <rect width="400" height="400" fill="#6C5CE7"/>
+  <circle cx="200" cy="160" r="80" fill="#ffffff" opacity="0.8"/>
+  <circle cx="200" cy="360" r="120" fill="#ffffff" opacity="0.8"/>
+  <text x="200" y="210" font-family="Arial" font-size="40" fill="#ffffff" text-anchor="middle">📊</text>
+  <text x="200" y="280" font-family="Arial" font-size="24" fill="#ffffff" text-anchor="middle">Subhash Kumar</text>
+</svg>
