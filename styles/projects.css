@@ -1,0 +1,72 @@
+/* ============================================================
+   PROJECTS
+   ============================================================ */
+.projects-section {
+    background: var(--bg);
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 28px;
+}
+
+.project-card {
+    background: var(--bg-card);
+    border-radius: var(--radius);
+    overflow: hidden;
+    border: 1px solid var(--border);
+    transition: all var(--transition);
+}
+.project-card:hover {
+    transform: translateY(-6px);
+    box-shadow: var(--shadow-lg);
+    border-color: rgba(108, 92, 231, 0.20);
+}
+
+.project-card .project-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    background: var(--bg-glass);
+}
+
+.project-card .project-body {
+    padding: 22px 24px 24px;
+}
+.project-card h3 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--text);
+    margin-bottom: 6px;
+}
+.project-card .project-desc {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    line-height: 1.6;
+}
+
+.project-card .project-tech {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin: 12px 0 14px;
+}
+.project-card .project-tech span {
+    font-size: 0.7rem;
+    font-weight: 500;
+    padding: 2px 12px;
+    border-radius: var(--radius-full);
+    background: rgba(108, 92, 231, 0.08);
+    color: var(--text-muted);
+}
+
+.project-card .project-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.project-card .project-actions .btn {
+    font-size: 0.78rem;
+    padding: 6px 16px;
+}
