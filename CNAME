@@ -1,0 +1,186 @@
+CNAME File – Custom Domain Configuration
+
+A CNAME file is a simple text file used for custom domain configuration on GitHub Pages, Netlify, Vercel, or other static hosting services.
+
+---
+
+📌 What is CNAME?
+
+The CNAME file tells GitHub Pages (or your hosting provider) which custom domain your website should respond to. It contains exactly one line – your domain name.
+
+---
+
+🗂️ File Content
+
+Create a file named CNAME (no file extension) in the root directory of your project with the following content:
+
+```text
+subhash7y.github.io
+```
+
+---
+
+🔧 Customization
+
+Replace subhash7y.github.io with your actual domain name based on your setup:
+
+1. Default GitHub Pages Domain
+
+```text
+subhash7y.github.io
+```
+
+2. Custom Domain (Example)
+
+```text
+subhashkumar.com
+```
+
+3. Subdomain (Example)
+
+```text
+portfolio.subhashkumar.com
+```
+
+4. With WWW (Example)
+
+```text
+www.subhashkumar.com
+```
+
+---
+
+📁 File Location
+
+The CNAME file must be placed in:
+
+```
+Portfolio-Resume/
+├── index.html
+├── style.css
+├── script.js
+├── CNAME              ← Here (root of the repository)
+├── README.md
+├── LICENSE
+└── ...
+```
+
+---
+
+🚀 Deployment Notes
+
+GitHub Pages
+
+· Place the CNAME file in the root of your repository.
+· Go to Settings → Pages and enter your domain in the "Custom domain" field.
+· GitHub will automatically verify the domain.
+
+Netlify
+
+· You can also set the custom domain via Netlify Dashboard (Site settings → Domain management).
+· The CNAME file is optional but recommended for portability.
+
+Vercel
+
+· Configure custom domains via Vercel Dashboard (Project settings → Domains).
+· The CNAME file can also be used if needed.
+
+---
+
+✅ DNS Configuration (For Custom Domains)
+
+If you're using a custom domain, you must also configure DNS records:
+
+With GitHub Pages (Apex Domain - example.com)
+
+Type Name Value
+A @ 185.199.108.153
+A @ 185.199.109.153
+A @ 185.199.110.153
+A @ 185.199.111.153
+
+With GitHub Pages (WWW Subdomain)
+
+Type Name Value
+CNAME www subhash7y.github.io
+
+With Netlify / Vercel
+
+Follow your provider's DNS configuration guide.
+
+---
+
+🔍 Testing Your Domain
+
+1. After setting the CNAME and DNS, wait up to 24 hours for propagation.
+2. Visit your domain in a browser.
+3. If it doesn't work, check:
+   · DNS propagation status.
+   · GitHub Pages custom domain settings.
+   · SSL certificate (usually auto-provisioned).
+
+---
+
+⚠️ Important Notes
+
+· The CNAME file must contain only the domain name – no https:// or trailing slashes.
+· Keep the file content case-insensitive (lowercase is standard).
+· If you change your domain, update both the CNAME file and hosting settings.
+· Make sure the domain is correctly pointed to your hosting provider.
+
+---
+
+📝 Example: Full Configuration
+
+For a custom domain subhashkumar.com:
+
+CNAME file:
+
+```text
+subhashkumar.com
+```
+
+DNS Records (GitHub Pages):
+
+Type Name Value
+A @ 185.199.108.153
+A @ 185.199.109.153
+A @ 185.199.110.153
+A @ 185.199.111.153
+CNAME www subhash7y.github.io
+
+GitHub Pages Settings:
+
+· Custom domain: subhashkumar.com
+
+---
+
+🛠️ Quick Setup Guide
+
+1. Choose your domain (e.g., subhashkumar.com).
+2. Update the CNAME file with your domain.
+3. Add DNS records at your domain registrar.
+4. Wait for propagation (may take up to 24 hours).
+5. Verify in GitHub Pages settings.
+6. Test your domain in a browser.
+
+---
+
+❓ Troubleshooting
+
+Issue Solution
+Domain not resolving Check DNS propagation status.
+GitHub Pages shows "Unavailable" Ensure CNAME file is in the root branch.
+SSL Certificate error Wait 5-10 minutes for GitHub to provision SSL.
+Redirects to wrong domain Update DNS records and CNAME file.
+Enforce HTTPS not working Enable "Enforce HTTPS" in GitHub Pages settings.
+
+---
+
+📚 Resources
+
+· GitHub Pages Custom Domain Guide
+· Netlify Domain Management
+· Vercel Domain Management
+
+------
