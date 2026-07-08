@@ -1,0 +1,41 @@
+{
+  "name": "Subhash Kumar – Economist · Researcher · Consultant",
+  "short_name": "Subhash Kumar",
+  "description": "Economics (Honours) student at University of Delhi. Research in econometrics, consumer behaviour & business analytics.",
+  "start_url": "/Portfolio-Resume/",
+  "display": "standalone",
+  "background_color": "#0D0D1A",
+  "theme_color": "#6C5CE7",
+  "orientation": "portrait-primary",
+  "scope": "/Portfolio-Resume/",
+  "lang": "en-IN",
+  "icons": [
+    {
+      "src": "/Portfolio-Resume/assets/favicon/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/Portfolio-Resume/assets/favicon/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/Portfolio-Resume/assets/favicon/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "/Portfolio-Resume/assets/favicon/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/Portfolio-Resume/assets/favicon/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}
