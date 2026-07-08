@@ -1,0 +1,427 @@
+# ============================================================
+# PART 1: OS, EDITOR, AND SYSTEM FILES
+# ============================================================
+
+# ----------------------------
+# Operating System Files
+# ----------------------------
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.swp
+*.swo
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Linux
+*.tmp
+*.pid
+*.lock
+*.seed
+*.pid.lock
+
+# ----------------------------
+# Editor and IDE Files
+# ----------------------------
+
+# VS Code
+.vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Visual Studio
+*.sln
+*.suo
+*.user
+*.userosscache
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.vbproj
+*.csproj
+*.dbproj
+*.sqlproj
+
+# IntelliJ IDEA / WebStorm / PHPStorm
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+.idea_modules/
+*.class
+*.jar
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+.sublime/
+
+# Atom
+.atom/
+.config/
+.tern-port
+
+# Vim
+*.swp
+*.swo
+*.un~
+*~
+.*.swp
+.*.swo
+.*.un~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+
+# ----------------------------
+# Other Editors
+# ----------------------------
+
+# Brackets
+*.brackets.json
+
+# Komodo
+*.komodoproject
+.komodotools/
+
+# NetBeans
+nbproject/
+nbdist/
+.nb-gradle/
+
+# Eclipse
+.classpath
+.project
+.settings/
+.metadata/
+bin/
+tmp/
+*.tmp
+*.bak
+*.log
+*.metadata
+
+
+# ============================================================
+# PART 2: LOGS, TEMPORARY FILES, AND ENVIRONMENT
+# ============================================================
+
+# ----------------------------
+# Logs and Databases
+# ----------------------------
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.db-wal
+*.db-shm
+*.mdb
+*.accdb
+
+# ----------------------------
+# Temporary Files
+# ----------------------------
+
+# Temporary folders
+tmp/
+temp/
+*.tmp
+*.temp
+.cache/
+.eslintcache
+.stylelintcache
+*.tsbuildinfo
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+*.save
+
+# ----------------------------
+# Environment and Secrets
+# ----------------------------
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+.env.*.local
+.env.*.local.*
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Secrets and keys
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.secret
+*.token
+*.password
+
+# ----------------------------
+# Dependency Directories
+# ----------------------------
+
+# Node modules (if you add any)
+node_modules/
+jspm_packages/
+bower_components/
+vendor/
+packages/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+ENV/
+env/
+
+# Ruby
+.bundle/
+vendor/bundle/
+Gemfile.lock
+*.gem
+
+# PHP
+composer.lock
+vendor/
+
+# ----------------------------
+# Build and Distribution
+# ----------------------------
+
+# Build outputs
+dist/
+build/
+out/
+release/
+deploy/
+*.min.*
+*.bundle.*
+*.chunk.*
+*.js.map
+*.css.map
+
+# Package managers
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+Cargo.lock
+Pipfile.lock
+poetry.lock
+
+# Compiled files
+*.o
+*.a
+*.so
+*.dylib
+*.exe
+*.dll
+*.pdb
+
+
+# ============================================================
+# PART 3: OPTIONAL AND PROJECT-SPECIFIC EXCLUSIONS
+# ============================================================
+
+# ----------------------------
+# Project-Specific Files
+# ----------------------------
+
+# Custom domain (if you want to keep it but not commit)
+# CNAME
+
+# Resume (if you have sensitive info)
+# assets/documents/*.pdf
+
+# Original images (keep only optimized versions)
+assets/images/raw/
+assets/images/*.psd
+assets/images/*.ai
+assets/images/*.sketch
+assets/images/*.fig
+assets/images/*.xcf
+
+# ----------------------------
+# Archive and Compression
+# ----------------------------
+
+# Archive files
+*.zip
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+*.gz
+*.bz2
+
+# Compressed backups
+*.zip.bak
+*.tar.bak
+*.tgz.bak
+
+# ----------------------------
+# Testing and Coverage
+# ----------------------------
+
+# Testing
+coverage/
+.nyc_output/
+test-results/
+junit.xml
+test-reports/
+*.test.js
+*.spec.js
+*.test.ts
+*.spec.ts
+
+# ----------------------------
+# Documentation Builds
+# ----------------------------
+
+# Documentation
+docs/_build/
+docs/.build/
+apidocs/
+generated-docs/
+*.docset
+
+# ----------------------------
+# Misc
+# ----------------------------
+
+# Docker
+.dockerignore
+Dockerfile
+docker-compose*.yml
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# Kubernetes
+*.kubeconfig
+*.context
+
+# ----------------------------
+# Sensitive Data Files
+# ----------------------------
+
+# Uncomment if you have sensitive data
+# data/*.csv
+# data/*.xlsx
+# data/*.xls
+# data/*.json.bak
+# data/*.db
+# data/private/
+# assets/images/profile-original.jpg
+
+# ----------------------------
+# Git and Version Control
+# ----------------------------
+
+# Git hooks
+.git/hooks/
+!.git/hooks/*.sample
+
+# Git attributes
+.gitattributes
+.gitmodules
+
+# Submodules
+.git/modules/
+
+# ----------------------------
+# Cloud and Service Files
+# ----------------------------
+
+# AWS
+.aws/
+.elasticbeanstalk/
+
+# Azure
+.azure/
+
+# GCP
+.gcloud/
+.google/
+
+# Netlify
+.netlify/
+
+# Vercel
+.vercel/
+
+# Heroku
+.heroku/
+
+# ----------------------------
+# Final Notes
+# ----------------------------
+
+# !!! IMPORTANT !!!
+# Add any project-specific files you want to ignore below.
+# For example:
+# .env.local
+# *.pem
+# *.key
+# *.crt
+
+# If you have a custom domain, uncomment the line below:
+# CNAME
+
+
+
