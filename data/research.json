@@ -1,0 +1,53 @@
+[
+  {
+    "title": "Consumer Preferences and Behavioural & Non-Behavioural: A Microeconomics Analysis",
+    "abstract": "Examined evolving consumer preferences in digital media consumption, focusing on short-form video content, hook strategies, and viewer engagement patterns through survey-based analysis.",
+    "objectives": [
+      "Analyze consumer behaviour shifts",
+      "Identify key engagement drivers"
+    ],
+    "methodology": "Primary survey data collection, micro-econometric modeling",
+    "dataset": "Survey responses from 200+ participants",
+    "results": "Found significant correlation between hook strategies and viewer retention",
+    "skills": [
+      "Microeconomics",
+      "Econometrics",
+      "Survey Design",
+      "Data Interpretation"
+    ]
+  },
+  {
+    "title": "Impact of Video Engagement Metrics on Viewer Satisfaction: A Micro-Econometric Analysis Based on Primary Survey Data",
+    "abstract": "Investigated how engagement metrics (likes, comments, shares, watch time) influence viewer satisfaction using micro-econometric techniques.",
+    "objectives": [
+      "Quantify impact of engagement metrics",
+      "Build predictive model for satisfaction"
+    ],
+    "methodology": "OLS regression, time-series analysis",
+    "dataset": "Primary survey data and platform analytics",
+    "results": "Watch time and comment sentiment are the strongest predictors",
+    "skills": [
+      "Econometrics",
+      "OLS Regression",
+      "Data Analysis",
+      "Research Writing"
+    ]
+  },
+  {
+    "title": "Interest Rates and Corporate Investment in India (2012–2024)",
+    "abstract": "Investigated the relationship between prevailing interest rates and corporate investment decisions in India using econometric tools including OLS regression and time-series data.",
+    "objectives": [
+      "Analyze interest rate-investment nexus",
+      "Provide policy insights"
+    ],
+    "methodology": "Time-series econometrics, OLS regression",
+    "dataset": "RBI data, corporate investment data (2012–2024)",
+    "results": "Inverse relationship between interest rates and investment, with lag effects",
+    "skills": [
+      "Macroeconomics",
+      "Time-series Analysis",
+      "Gretl",
+      "Econometric Modeling"
+    ]
+  }
+]
