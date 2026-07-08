@@ -116,9 +116,17 @@ function renderResearch(researchData) {
     });
 }
 
-// --------------------------------------------
-// 5. RENDER: PROJECTS
-// --------------------------------------------
+// ============================================================
+// 5. RENDER: PROJECTS – REFACTORED WITH 16:9 HERO IMAGE
+// ============================================================
+/**
+ * Renders project cards with:
+ * - 16:9 landscape hero image (desktop & mobile)
+ * - Content section below image for title, desc, tech, buttons
+ * - Responsive grid layout (2 cols desktop, 1 col mobile)
+ * - No vertical mobile screenshots as hero
+ * - Smooth hover effects and rounded corners
+ */
 function renderProjects(projectsData) {
     const container = document.getElementById('projectsList');
     if (!container || !projectsData) return;
@@ -127,17 +135,35 @@ function renderProjects(projectsData) {
     projectsData.forEach(project => {
         const imageSrc = `./assets/images/projects/${project.image}`;
         html += `
+            <!-- Project Card Container: Flexbox column layout -->
             <div class="project-card">
-                <img src="${imageSrc}" alt="${project.title}" class="project-image" loading="lazy" onerror="this.src='./assets/images/placeholder.webp'">
-                <div class="project-body">
-                    <h3>${project.title}</h3>
-                    <p class="project-desc">${project.description}</p>
-                    <div class="project-tech">
-                        ${project.technology.map(t => `<span>${t}</span>`).join('')}
+                <!-- Hero Image Wrapper: 16:9 aspect ratio (always horizontal) -->
+                <div class="project-hero-wrapper">
+                    <img 
+                        src="${imageSrc}" 
+                        alt="${project.title}" 
+                        class="project-hero-image" 
+                        loading="lazy" 
+                        onerror="this.src='./assets/images/placeholder.webp'"
+                    />
+                    <!-- Gradient overlay for aesthetic depth -->
+                    <div class="project-hero-overlay"></div>
+                </div>
+                
+                <!-- Project Content: Title, description, tech, buttons -->
+                <div class="project-content">
+                    <h3 class="project-title">${project.title}</h3>
+                    <p class="project-description">${project.description}</p>
+                    
+                    <!-- Technology Stack Tags -->
+                    <div class="project-tech-stack">
+                        ${project.technology.map(t => `<span class="tech-tag">${t}</span>`).join('')}
                     </div>
+                    
+                    <!-- Action Buttons -->
                     <div class="project-actions">
-                        ${project.github ? `<a href="${project.github}" class="btn btn-outline btn-sm" target="_blank">GitHub</a>` : ''}
-                        ${project.live ? `<a href="${project.live}" class="btn btn-outline btn-sm" target="_blank">Live Demo</a>` : ''}
+                        ${project.github ? `<a href="${project.github}" class="btn btn-outline btn-sm" target="_blank" rel="noopener">GitHub</a>` : ''}
+                        ${project.live ? `<a href="${project.live}" class="btn btn-outline btn-sm" target="_blank" rel="noopener">Live Demo</a>` : ''}
                         <button class="btn btn-outline btn-sm case-study" data-title="${project.title}">Case Study</button>
                     </div>
                 </div>
@@ -146,7 +172,7 @@ function renderProjects(projectsData) {
     });
     container.innerHTML = html;
 
-    // Case study placeholder
+    // Event listener for case study buttons
     document.querySelectorAll('.case-study').forEach(btn => {
         btn.addEventListener('click', function () {
             alert(`Case study for "${this.dataset.title}" coming soon.`);
